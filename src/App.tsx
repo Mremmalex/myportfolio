@@ -5,11 +5,11 @@ import SkillSection from "./components/layout/SkillSection";
 
 function App() {
 	return (
-		<>
+		<div className="overflow-hidden">
 			<Navbar />
 			<HeroSection />
 			<SkillSection />
-		</>
+		</div>
 	);
 }
 
