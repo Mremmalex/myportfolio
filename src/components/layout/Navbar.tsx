@@ -27,9 +27,6 @@ export default function Navbar() {
 					</a>
 				</div>
 
-				{/* <button className="hidden md:flex py-2 mt-1 px-3 bg-accent text-white rounded-xl font-bold hover:scale-125">
-					Get In Touch
-				</button> */}
 				<Button title="Get In Touch" style="hidden md:flex py-2 mt-1 px-3" />
 				<div
 					className={IsNavOpen ? "hidden" : "md:hidden"}
@@ -50,7 +47,7 @@ export default function Navbar() {
 					<XIcon className="w-8" />
 				</div>
 				<div className="flex flex-col items-center justify-center max-w-full">
-					<div className="mobile-nav flex flex-col justify-center items-center pt-[4rem]">
+					<div className="mobile-nav flex flex-col justify-center items-center pt-[6rem]">
 						<a href="" className="font-bold">
 							Home
 						</a>
@@ -60,9 +57,7 @@ export default function Navbar() {
 						<a href="" className="font-bold pt-5 ">
 							Service
 						</a>
-						{/* <button className="py-2 mt-4 px-8 bg-accent rounded-xl text-white font-bold hover:scale-125">
-							Get In Touch
-						</button> */}
+
 						<Button title="Get In Touch" style="py-2 mt-4 px-8 " />
 					</div>
 				</div>
