@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import heroimage from "../../assests/Designer-Life.svg";
+import heroimage from "../../assests/heroimage2.svg";
 import Button from "../ui/Button";
 function HeroSection() {
 	return (
