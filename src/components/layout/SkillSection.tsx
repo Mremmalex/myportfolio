@@ -15,7 +15,7 @@ function SkillSection() {
 				<p>This are tools i use to bring your ideas to life.</p>
 			</div>
 
-			<div className="grid grid-cols-2 md:grid-cols-4 gap-6 md-[1rem] md:p-[2rem] pt-[10rem]">
+			<div className="grid grid-cols-2 md:grid-cols-4 gap-6  md:p-[2rem] pt-[10rem]">
 				<Card image={react} skill="Reactjs" />
 				<Card image={react} skill="React Native" />
 				<Card image={python} skill="Python" />
