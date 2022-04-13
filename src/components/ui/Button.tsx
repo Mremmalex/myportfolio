@@ -7,7 +7,8 @@ interface Props {
 
 function Button({ title, style }: Props) {
 	const styleClass: string =
-		style + " bg-accent rounded-xl text-white font-bold hover:scale-110";
+		style +
+		" bg-accent shadow-lg rounded-xl text-white font-bold hover:scale-110";
 	return <button className={styleClass}>{title}</button>;
 }
 
