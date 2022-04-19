@@ -11,7 +11,7 @@ import postgress from "../../assests/postgress.png";
 
 function SkillSection() {
 	return (
-		<section className="font-sens items-center justify-center bg-accent text-white h-screen">
+		<section className="font-sens items-center justify-center bg-accent text-white md:h-screen">
 			<div className="md:hidden items-center h-8 pt-[1rem] md:pt-0">
 				<div className="flex flex-row justify-center gap-[3rem] px-[1.5rem]">
 					<a href="" className="hover:scale-110">

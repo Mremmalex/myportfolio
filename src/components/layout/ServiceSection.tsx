@@ -5,13 +5,16 @@ export default function ServiceSection() {
 	return (
 		<section className="font-sens">
 			<div className="flex flex-col justify-center items-center">
-				<div className="pt-[2rem]">
+				<div className="pt-[2rem] flex flex-col items-center justify-center">
 					<h1 className="text-xl md:text-4xl font-bold">
 						This are awesome services i offer
 					</h1>
-					<p>get in touch lets build top notch softwares for your businesses</p>
+					<p>
+						get in touch lets build top notch softwares <br /> for your
+						businesses
+					</p>
 				</div>
-				<div className="grid gap-3 md:grid-cols-3 pt-[3rem] ">
+				<div className="grid gap-6 md:grid-cols-3 pt-[3rem] ">
 					<div className="flex flex-col items-center w-[20rem] md:w-[27rem] h-[20rem] shadow-lg">
 						<div className="flex flex-col justify-center items-center">
 							<img

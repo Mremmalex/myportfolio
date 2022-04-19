@@ -3,7 +3,7 @@ import heroimage from "../../assests/heroimage2.svg";
 import Button from "../ui/Button";
 function HeroSection(): JSX.Element {
 	return (
-		<section className="font-sens">
+		<section className="font-sens md:h-screen">
 			<div className="flex flex-col md:flex-row flex-evenly md:items-center">
 				<div className=" w-[30rem] p-[1.5rem] md:w-[50rem] pt-[3rem] md:p-[4rem] md:justify-self-center">
 					<h1 className="text-2xl md:text-5xl font-bold">
