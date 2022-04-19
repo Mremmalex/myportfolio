@@ -10,8 +10,8 @@ export default function ServiceSection() {
 						This are awesome services i offer
 					</h1>
 					<p>
-						get in touch lets build top notch softwares <br /> for your
-						businesses
+						get in touch lets build top notch softwares{" "}
+						<span className="sm:break-words"> for your businesses </span>
 					</p>
 				</div>
 				<div className="grid gap-6 md:grid-cols-3 pt-[3rem] ">
