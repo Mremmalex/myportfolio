@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { XIcon, MenuAlt1Icon } from "@heroicons/react/solid";
-import Button from "../ui/Button";
+import Button from "./Button";
 export default function Navbar() {
 	const [IsNavOpen, setIsNavOpen] = useState(false);
 
@@ -22,7 +22,7 @@ export default function Navbar() {
 						About
 					</a>
 					<a href="" className="font-bold ">
-						Service
+						Contact
 					</a>
 				</div>
 
@@ -54,7 +54,7 @@ export default function Navbar() {
 							About
 						</a>
 						<a href="" className="font-bold pt-5 ">
-							Service
+							Contact
 						</a>
 						<Button title="Get In Touch" style="py-2 mt-4 px-8 " />
 					</div>

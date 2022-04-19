@@ -1,9 +1,9 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import heroimage from "../../assests/heroimage2.svg";
 import Button from "../ui/Button";
-function HeroSection() {
+function HeroSection(): JSX.Element {
 	return (
-		<section className="font-sens">
+		<section className="font-sens md:h-screen">
 			<div className="flex flex-col md:flex-row flex-between md:items-center">
 				<div className=" w-[30rem] p-[1.5rem] md:w-[50rem] pt-[3rem] md:p-[4rem] md:justify-self-center">
 					<h1 className="text-2xl md:text-5xl font-bold">
@@ -23,7 +23,7 @@ function HeroSection() {
 				<div className="pt-6">
 					<img src={heroimage} className="w-50 h-50" alt="hero image" />
 				</div>
-				<div className="hidden md:flex items-center h-8 pt-[4rem] md:pt-0">
+				<div className="hidden md:flex items-center h-8 pt-4 md:pt-0">
 					<div className="flex flex-row justify-center md:flex-col gap-[3rem] px-[1.5rem]">
 						<a href="" className="hover:scale-110">
 							<FaGithub className="w-6 text-accent" size={25} />
