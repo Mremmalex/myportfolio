@@ -19,10 +19,10 @@ export default function Navbar() {
 						Home
 					</a>
 					<a href="" className="font-bold pr-4">
-						About
+						Services
 					</a>
 					<a href="" className="font-bold ">
-						Service
+						Contact
 					</a>
 				</div>
 
@@ -51,10 +51,10 @@ export default function Navbar() {
 							Home
 						</a>
 						<a href="" className="font-bold pt-5">
-							About
+							Services
 						</a>
 						<a href="" className="font-bold pt-5 ">
-							Service
+							Contact
 						</a>
 						<Button title="Get In Touch" style="py-2 mt-4 px-8 " />
 					</div>
