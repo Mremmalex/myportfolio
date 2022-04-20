@@ -5,13 +5,13 @@ export default function ServiceSection() {
 	return (
 		<section className="font-sens">
 			<div className="flex flex-col justify-center items-center">
-				<div className="pt-[2rem] flex flex-col items-center justify-center">
+				<div className="pt-[2rem] px-6 py-6 flex flex-col items-center justify-center">
 					<h1 className="text-xl md:text-4xl font-bold">
 						This are awesome services i offer
 					</h1>
 					<p>
-						get in touch lets build top notch softwares{" "}
-						<span className="sm:break-words"> for your businesses </span>
+						I indulge you to get in touch with me so that together we will build
+						<span className=""> top notch softwares for your businesses. </span>
 					</p>
 				</div>
 				<div className="grid gap-6 md:grid-cols-3 pt-[3rem] ">
@@ -50,7 +50,7 @@ export default function ServiceSection() {
 						<div className="flex flex-col justify-center items-center">
 							<img
 								src={product}
-								className="w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] "
+								className="w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] text-accent"
 								alt="web development"
 							/>
 							<h1 className="text-xl md:text-2xl font-bold">

@@ -10,9 +10,9 @@ function HeroSection(): JSX.Element {
 						Hey, I'm Ifeanyichukwu
 					</h1>
 					<p className="text-md md:text-xl">
-						i create web and mobile applications for companies.
+						I create web and mobile applications for companies.
 					</p>
-					<p className="texl-md md:text-xl">Innovation is my passion</p>
+					<p className="texl-md md:text-xl">I have great passion Innovation</p>
 					<div className="flex w-full">
 						<Button
 							title="Contact Me"

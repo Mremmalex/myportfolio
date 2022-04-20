@@ -34,7 +34,7 @@ function ContactSection() {
 								cols={30}
 								rows={10}></textarea>
 						</div>
-						<div>
+						<div className="">
 							<Button title="Lets Build" style="px-10 py-2" />
 						</div>
 					</form>
