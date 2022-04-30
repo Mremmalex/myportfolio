@@ -1,0 +1,59 @@
+@import "../../../scss/variables";
+
+section.hero_section {
+	overflow: hidden;
+	width: 100%;
+	h1 {
+		padding: 0;
+		margin: 0;
+	}
+	.container {
+		margin: 0 auto;
+		// padding: 0 5em;
+		padding-top: 3em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}
+
+	img {
+		width: 31.25em;
+		height: 31.25em;
+	}
+	.hero_left {
+		h1 {
+			font-size: 1.5em;
+		}
+		p {
+			color: gray;
+			font-size: 1em;
+			display: block;
+		}
+		.hero_cta {
+			display: block;
+			padding: 0.7em 1.3em;
+			border-radius: 5em;
+			text-align: center;
+			font-size: 1.2em;
+			color: var(--white-color);
+			background: var(--accent-color);
+			margin-top: 0.5em;
+			&:hover {
+				background: var(--primary-color);
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: $md) {
+	section.hero_section {
+		overflow: hidden;
+
+		.container {
+			flex-direction: row;
+			padding: 0 5em;
+		}
+	}
+}

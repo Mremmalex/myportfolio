@@ -1,18 +1,18 @@
-import { useState } from "react";
-import ContactSection from "./components/layout/ContactSection";
-import HeroSection from "./components/layout/HeroSection";
-import Navbar from "./components/ui/Navbar";
-import ServiceSection from "./components/layout/ServiceSection";
-import SkillSection from "./components/layout/SkillSection";
+import ContactSection from "./components/layout/contact/ContactSection";
+import HeroSection from "./components/layout/hero/HeroSection";
+import Navbar from "./components/ui/navbar/Navbar";
+import ServiceSection from "./components/layout/service/ServiceSection";
+import AboutSection from "./components/layout/about/AboutSection";
+import style from "./App.module.scss";
 
 function App() {
 	return (
-		<div className="overflow-hidden">
+		<div className={style.home}>
 			<Navbar />
 			<HeroSection />
-			<SkillSection />
+			<AboutSection />
 			<ServiceSection />
-			<ContactSection />
+			{/* <ContactSection /> */}
 		</div>
 	);
 }

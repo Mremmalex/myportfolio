@@ -1,4 +1,5 @@
-import Button from "../ui/Button";
+import Button from "../../ui/Button";
+import style from "src/components/layout/contact/Contact.module.css.scss";
 
 function ContactSection() {
 	return (
@@ -8,7 +9,7 @@ function ContactSection() {
 					<h1>get in touch</h1>
 				</div>
 				<div className="shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
-					<form action="" className="">
+					<form action="src/components/layout/contact/ContactSection" className="">
 						<div className="flex flex-col mb-3">
 							<label htmlFor="name">Your Name</label>
 							<input
