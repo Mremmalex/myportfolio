@@ -1,0 +1,51 @@
+@import "../../../scss/variables";
+
+section.about_section {
+	background: var(--accent-color);
+	color: var(--white-color);
+	.icon {
+		display: flex;
+		height: 2em;
+		width: 2em;
+
+		a {
+			padding-right: 1em;
+			display: block;
+
+			svg {
+				path {
+					fill: var(--white-color);
+				}
+			}
+		}
+	}
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 2em;
+
+		.about_head {
+			text-align: center;
+			font-size: 1.2em;
+		}
+
+		p {
+			font-size: 0.8em;
+		}
+
+		.skill {
+			display: grid;
+			grid-template-columns: auto auto;
+		}
+	}
+}
+
+@media only screen and (min-width: $md) {
+	section.about_section {
+		.container {
+			.skill {
+				grid-template-columns: auto auto auto auto;
+			}
+		}
+	}
+}

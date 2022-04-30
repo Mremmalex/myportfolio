@@ -1,8 +1,8 @@
 import React from "react";
 
-function ServiceCard() {
+function ServiceCard(): JSX.Element {
 	return (
-		<div className="flex flex-col justify-center items-center">
+		<div className="container">
 			<div>
 				<h1>This are awesome services i offer</h1>
 				<p>get in touch lets build top notch softwares for your businesses</p>
