@@ -12,7 +12,7 @@ function App() {
 			<HeroSection />
 			<AboutSection />
 			<ServiceSection />
-			{/* <ContactSection /> */}
+			<ContactSection />
 		</div>
 	);
 }

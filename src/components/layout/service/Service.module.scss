@@ -7,38 +7,42 @@ section.service_section {
 
 		.service_heading {
 			text-align: center;
-			padding: 1em 0;
+			padding: 1em;
 			h1 {
+				padding: 1em;
 				font-size: 1.2em;
 				font-weight: bold;
 			}
 		}
 
 		ul {
-			width: 70%;
-			height: 30%;
 			display: flex;
-			gap: 2;
+			position: relative;
+			margin: 2em;
 			flex-direction: column;
-			justify-content: center;
+			align-items: center;
+			gap: 2em;
 
 			li {
-				flex: 1;
+				width: 25em;
+				height: 18em;
+				box-shadow: 1px 2px 3px rgb(88, 88, 88);
+				padding: 2em;
 				img {
 					width: 5em;
 					height: 5em;
+					float: left;
 				}
 
 				button {
-					padding: 0.6em 1.2em;
+					padding: 0.8em 1.2em;
 					background: var(--accent-color);
 					border-radius: 5em;
 					color: var(--white-color);
 					font-size: 1em;
 					font-weight: bold;
 					border: none;
-					float: right;
-
+					margin-top: 0.5em;
 					&:hover {
 						background: var(--primary-color);
 					}
@@ -55,7 +59,8 @@ section.service_section {
 				flex-direction: row;
 
 				li {
-					// flex: 1;
+					width: 30em;
+					height: 20em;
 				}
 			}
 		}
