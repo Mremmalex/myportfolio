@@ -6,14 +6,19 @@ export default function ServiceSection() {
 		<section className="font-sens">
 			<div className="flex flex-col justify-center items-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<div className="pt-[2rem] px-6 py-6 flex flex-col items-center justify-center">
 =======
 				<div className="pt-[2rem] flex flex-col items-center justify-center">
 >>>>>>> 0f17060 (resolve rebase issues)
+=======
+				<div className="pt-[2rem] px-6 py-6 flex flex-col items-center justify-center">
+>>>>>>> 783d884 (resolve rebase issues)
 					<h1 className="text-xl md:text-4xl font-bold">
 						This are awesome services i offer
 					</h1>
 					<p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 						I indulge you to get in touch with me so that together we will build
 						<span className=""> top notch softwares for your businesses. </span>
@@ -21,6 +26,10 @@ export default function ServiceSection() {
 						get in touch lets build top notch softwares{" "}
 						<span className="sm:break-words"> for your businesses </span>
 >>>>>>> 0f17060 (resolve rebase issues)
+=======
+						I indulge you to get in touch with me so that together we will build
+						<span className=""> top notch softwares for your businesses. </span>
+>>>>>>> 783d884 (resolve rebase issues)
 					</p>
 				</div>
 				<div className="grid gap-6 md:grid-cols-3 pt-[3rem] ">
@@ -60,10 +69,14 @@ export default function ServiceSection() {
 							<img
 								src={product}
 <<<<<<< HEAD
+<<<<<<< HEAD
 								className="w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] text-accent"
 =======
 								className="w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] "
 >>>>>>> 0f17060 (resolve rebase issues)
+=======
+								className="w-[8rem] md:w-[10rem] h-[8rem] md:h-[10rem] text-accent"
+>>>>>>> 783d884 (resolve rebase issues)
 								alt="web development"
 							/>
 							<h1 className="text-xl md:text-2xl font-bold">
