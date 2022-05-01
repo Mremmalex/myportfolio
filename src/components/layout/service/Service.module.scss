@@ -42,7 +42,7 @@ section.service_section {
 					font-size: 1em;
 					font-weight: bold;
 					border: none;
-					margin-top: 0.5em;
+					margin-top: 2em;
 					&:hover {
 						background: var(--primary-color);
 					}
@@ -52,7 +52,7 @@ section.service_section {
 	}
 }
 
-@media only screen and (min-width: $md) {
+@media screen and (min-width: $md) {
 	section.service_section {
 		.container {
 			ul {

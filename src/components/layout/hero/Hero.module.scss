@@ -47,7 +47,7 @@ section.hero_section {
 	}
 }
 
-@media only screen and (min-width: $md) {
+@media screen and (min-width: $md) {
 	section.hero_section {
 		overflow: hidden;
 
