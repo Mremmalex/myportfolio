@@ -1,8 +1,39 @@
 @import "../../../scss/variables";
 
 section.contact_section {
-	.container {
+	width: 100%;
+	margin-top: 3em;
+	.contact {
 		width: 100%;
-		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact_left {
+		text-align: center;
+
+		h1 {
+			font-size: 2em;
+		}
+		p {
+			word-break: keep-all;
+		}
+	}
+
+	.contact_right {
+		margin: 0 2em;
+
+		iframe {
+			height: 30em;
+			width: 30em;
+		}
+	}
+}
+
+@media screen and (min-width: $md) {
+	section.contact_section {
+		.contact {
+			flex-direction: row;
+		}
 	}
 }

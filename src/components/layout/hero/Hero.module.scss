@@ -7,9 +7,13 @@ section.hero_section {
 		padding: 0;
 		margin: 0;
 	}
-	.container {
-		margin: 0 auto;
-		// padding: 0 5em;
+	.bold_text {
+		font-size: 1em;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.hero {
+		width: 100%;
 		padding-top: 3em;
 		display: flex;
 		flex-direction: column;
@@ -27,21 +31,29 @@ section.hero_section {
 			font-size: 1.5em;
 		}
 		p {
-			color: gray;
+			color: var(--gray-color);
 			font-size: 1em;
 			display: block;
 		}
-		.hero_cta {
-			display: block;
-			padding: 0.7em 1.3em;
-			border-radius: 5em;
-			text-align: center;
-			font-size: 1.2em;
-			color: var(--white-color);
-			background: var(--accent-color);
-			margin-top: 0.5em;
-			&:hover {
-				background: var(--primary-color);
+		.hero_contact {
+			display: flex;
+			align-items: center;
+			width: 100%;
+			margin: 0 auto;
+			justify-content: center;
+
+			.hero_cta {
+				display: block;
+				padding: 0.6em 1.6em;
+				border-radius: 5em;
+				text-align: center;
+				font-size: 1.2em;
+				color: var(--white-color);
+				background: var(--accent-color);
+				margin-top: 0.5em;
+				&:hover {
+					background: var(--primary-color);
+				}
 			}
 		}
 	}
@@ -51,7 +63,7 @@ section.hero_section {
 	section.hero_section {
 		overflow: hidden;
 
-		.container {
+		.hero {
 			flex-direction: row;
 			padding: 0 5em;
 		}

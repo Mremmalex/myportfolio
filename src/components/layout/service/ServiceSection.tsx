@@ -21,28 +21,34 @@ export default function ServiceSection() {
 
 						<p className="">
 							I help develop and build website for your ideas or product using
-							top notch technologies and infastructures, that suites your budget
+							top notch technologies and infrastructures, that suites your
+							budget
 						</p>
-						<button>Lets Build</button>
+						<div className={style.lets_build}>
+							<button>Lets Build</button>
+						</div>
 					</li>
 					<li className="">
 						<img src={mobileapp} className=" " alt="web development" />
 						<h1 className="">Mobile App Development</h1>
 						<p className="">
-							I help develop and build mobile applcation for your ideas or
-							product using top notch technologies and infastructures, that
-							suites your budget
+							I assist in the building and development of mobile application for
+							your ideas and product
 						</p>
-						<button>Lets Build</button>
+						<div className={style.lets_build}>
+							<button>Lets Build</button>
+						</div>
 					</li>
 					<li className="">
 						<img src={product} className=" " alt="web development" />
 						<h1 className="">Product Management</h1>
 						<p className="">
-							I help develop and build yout product for your using top notch
-							skil, technologies and infastructures, that suites your budget
+							I help manage all aspect of the product life cycle, Including
+							go-to-market strategies and product performance measurements
 						</p>
-						<button>Lets Build</button>
+						<div className={style.lets_build}>
+							<button>Lets Build</button>
+						</div>
 					</li>
 				</ul>
 			</div>

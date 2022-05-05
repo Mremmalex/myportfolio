@@ -34,17 +34,23 @@ section.service_section {
 					float: left;
 				}
 
-				button {
-					padding: 0.8em 1.2em;
-					background: var(--accent-color);
-					border-radius: 5em;
-					color: var(--white-color);
-					font-size: 1em;
-					font-weight: bold;
-					border: none;
-					margin-top: 2em;
-					&:hover {
-						background: var(--primary-color);
+				.lets_build {
+					width: 100%;
+					display: flex;
+					justify-content: left;
+
+					button {
+						padding: 0.8em 1.2em;
+						background: var(--accent-color);
+						border-radius: 5em;
+						color: var(--white-color);
+						font-size: 1em;
+						font-weight: bold;
+						border: none;
+						margin-top: 2em;
+						&:hover {
+							background: var(--primary-color);
+						}
 					}
 				}
 			}
