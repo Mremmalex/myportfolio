@@ -1,6 +1,5 @@
 import style from "./About.module.scss";
-
-import Card from "../../ui/card/Card";
+import Card from "../../ui/card/SkillCard";
 import react from "../../../assests/reactjs.png";
 import python from "../../../assests/python.png";
 import next from "../../../assests/nextjs.png";
@@ -20,7 +19,7 @@ function AboutSection() {
 						I'm a Fullstack Web and Mobile Developer. I have a wide variety of
 						coding niches to bring your ideas to life
 					</p>
-					<h4> Skills/Tools i use includes the following:</h4>
+					<h4> Skills/Tools i use include the following:</h4>
 				</div>
 
 				<div className={style.skill}>
@@ -32,6 +31,18 @@ function AboutSection() {
 					<Card image={python} skill="Python" />
 					<Card image={postgress} skill="Postgress" />
 					<Card image={mongodb} skill="Mongo Database" />
+				</div>
+
+				<div className={style.choose_me}>
+					<h1>Why you Should choose me </h1>
+					<ol>
+						<li>I am a time Management Master (fast &amp; secure)</li>
+						<li>100% Client Satisfaction</li>
+						<li>I Pay Attention to Every Detail Of Your Work</li>
+						<li>I'm a clear communicator</li>
+						<li>I Provide Professional Functionalities</li>
+						<li>100% money-back guarantee if you are not satisfied </li>
+					</ol>
 				</div>
 			</Container>
 		</section>

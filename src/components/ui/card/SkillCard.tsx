@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import style from "./Card.module.scss";
+import style from "./SkillCard.module.scss";
 
 interface Props {
 	image: string;

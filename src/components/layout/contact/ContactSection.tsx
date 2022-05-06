@@ -9,7 +9,7 @@ function ContactSection() {
 					<div className={style.contact_left}>
 						<h1>Let's Talk!</h1>
 						<p>
-							bringing your brand to life is not that hard, let me help you
+							Bringing your brand to life is not that hard, Let me help you
 							build your product and scale
 						</p>
 
