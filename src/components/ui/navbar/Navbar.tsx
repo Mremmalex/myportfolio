@@ -77,9 +77,16 @@ export default function Navbar() {
 						</ul>
 					</nav>
 
-					<a href="#" className={style.navbar_cta}>
+					<Link
+						activeClass="active"
+						to="contact"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={400}
+						className={style.navbar_cta}>
 						Get In Touch
-					</a>
+					</Link>
 				</div>
 
 				<div className={style.container}>

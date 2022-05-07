@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 import hero_image from "../../../assests/heroimage2.svg";
 import Container from "../../ui/container";
 import style from "./Hero.module.scss";
@@ -20,7 +21,16 @@ function HeroSection(): JSX.Element {
 						</p>
 
 						<div className={style.hero_contact}>
-							<a className={style.hero_cta}>Contact Me</a>
+							<Link
+								activeClass="active"
+								to="contact"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={400}
+								className={style.hero_cta}>
+								Contact Me
+							</Link>
 						</div>
 					</div>
 
