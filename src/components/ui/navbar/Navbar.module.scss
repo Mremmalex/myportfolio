@@ -10,6 +10,9 @@
 header {
 	width: 100%;
 	overflow: hidden;
+	height: 4em;
+	background-color: var(--white-color);
+	padding-top: 0.5em;
 
 	.logo {
 		font-size: 1.5em;
@@ -45,12 +48,14 @@ header {
 			margin-top: 5em;
 			list-style-type: none;
 			li {
+				cursor: pointer;
 				a {
 					display: block;
 					padding: 0.5em;
 					text-align: center;
 					text-decoration: none;
 					color: var(--white-color);
+					cursor: pointer;
 
 					&:hover {
 						font-weight: bold;
@@ -58,7 +63,12 @@ header {
 				}
 			}
 		}
-
+		.cursor {
+			cursor: pointer;
+		}
+		.active {
+			font-weight: bold;
+		}
 		.menu_close {
 			float: right;
 			margin: 1em;
@@ -89,6 +99,7 @@ header {
 
 @media only screen and (min-width: $md) {
 	header {
+		position: fixed;
 		.nav {
 			width: 100%;
 			margin: 0 auto;

@@ -3,6 +3,7 @@
 section.contact_section {
 	width: 100%;
 	margin-top: 3em;
+	padding-bottom: 3em;
 	.contact {
 		width: 100%;
 		display: flex;
@@ -11,6 +12,7 @@ section.contact_section {
 
 	.contact_left {
 		text-align: center;
+		padding-bottom: 2em;
 
 		h1 {
 			font-size: 2em;
@@ -18,14 +20,25 @@ section.contact_section {
 		p {
 			word-break: keep-all;
 		}
+		.links {
+			margin: 0 auto;
+		}
+		a {
+			margin-left: 1em;
+		}
+		svg {
+			path {
+				fill: var(--accent-color);
+			}
+		}
 	}
 
 	.contact_right {
-		margin: 0 2em;
+		margin: 0 auto;
 
 		iframe {
-			height: 30em;
-			width: 30em;
+			height: 20em;
+			width: 20em;
 		}
 	}
 }
@@ -34,6 +47,11 @@ section.contact_section {
 	section.contact_section {
 		.contact {
 			flex-direction: row;
+		}
+		.contact_right {
+			iframe {
+				width: 30em;
+			}
 		}
 	}
 }

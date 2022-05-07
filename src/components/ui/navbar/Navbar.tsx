@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { XIcon, MenuAlt1Icon } from "@heroicons/react/solid";
-import Button from "../Button";
+import { Link, animateScroll as scroll } from "react-scroll";
+import { useEffect, useState } from "react";
 import style from "./Navbar.module.scss";
 import Container from "../container";
 
@@ -11,11 +10,21 @@ export default function Navbar() {
 		setIsNavOpen(false);
 	}, []);
 
+	const scrollToTop = () => {
+		scroll.scrollToTop();
+	};
+
+	const toggleNav = () => {
+		setIsNavOpen(!IsNavOpen);
+	};
+
 	return (
 		<header className={style.header}>
 			<Container>
 				<div className={style.nav}>
-					<a className={style.logo}>Emmalex.</a>
+					<a className={style.logo} onClick={scrollToTop}>
+						Emmalex.
+					</a>
 					<svg
 						onClick={() => setIsNavOpen(!IsNavOpen)}
 						className={style.menu_open}
@@ -33,19 +42,37 @@ export default function Navbar() {
 					<nav className={`${style.navbar_left} ${style.desktop_navbar}`}>
 						<ul className="">
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className="">
+								<Link
+									activeClass="active"
+									to="home"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={400}>
 									Home
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className="">
+								<Link
+									activeClass="active"
+									to="about"
+									spy={true}
+									smooth={true}
+									offset={-50}
+									duration={400}>
 									About
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className=" ">
+								<Link
+									activeClass="active"
+									to="contact"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={400}>
 									Contact
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</nav>
@@ -73,25 +100,42 @@ export default function Navbar() {
 
 						<ul className="">
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className="">
+								<Link
+									onClick={toggleNav}
+									activeClass="active"
+									to="home"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={400}>
 									Home
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className="">
+								<Link
+									onClick={toggleNav}
+									activeClass="active"
+									to="about"
+									spy={true}
+									smooth={true}
+									offset={-5}
+									duration={400}>
 									About
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="src/components/ui/navbar/Navbar" className=" ">
+								<Link
+									onClick={toggleNav}
+									activeClass="active"
+									to="contact"
+									spy={true}
+									smooth={true}
+									offset={-70}
+									duration={400}>
 									Contact
-								</a>
+								</Link>
 							</li>
 						</ul>
-
-						<a href="#" className={style.navbar_mobile_cta}>
-							Get In Touch
-						</a>
 					</nav>
 				</div>
 			</Container>

@@ -11,13 +11,13 @@ import Container from "../../ui/container";
 
 function AboutSection() {
 	return (
-		<section className={style.about_section}>
+		<section className={style.about_section} id="about">
 			<Container>
 				<div className={style.about_head}>
 					<h1 className="">About Me</h1>
 					<p>
 						I'm a Fullstack Web and Mobile Developer. I have a wide variety of
-						coding niches to bring your ideas to life
+						coding niches to bring your ideas to life.
 					</p>
 					<h4> Skills/Tools i use include the following:</h4>
 				</div>
@@ -34,7 +34,7 @@ function AboutSection() {
 				</div>
 
 				<div className={style.choose_me}>
-					<h1>Why you Should choose me </h1>
+					<h1>Why you Should choose me .</h1>
 					<ol>
 						<li>I am a time Management Master (fast &amp; secure)</li>
 						<li>100% Client Satisfaction</li>
